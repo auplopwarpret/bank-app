@@ -14,3 +14,4 @@ Run following common on command prompt
 
 `node app.js` 
 
+### Go to Browser and hit http://localhost:3000
