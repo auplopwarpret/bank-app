@@ -8,6 +8,7 @@ run following command on command prompt
 
 `npm install`
 
+
 ###Running the app
 
 Run following common on command prompt
