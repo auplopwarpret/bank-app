@@ -1,6 +1,6 @@
-##Setup
+## Setup
 
-###Installation
+### Installation
 Install node and npm  from
 https://nodejs.org/en/download/
 
@@ -9,7 +9,7 @@ run following command on command prompt
 `npm install`
 
 
-###Running the app
+### Running the app
 
 Run following common on command prompt
 
