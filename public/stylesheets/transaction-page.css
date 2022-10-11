@@ -1,0 +1,34 @@
+.transaction-form {
+    padding: 10px 30px;
+}
+
+.transaction-form select {
+    width: 280px;
+}
+
+.back-link {
+    margin-left: 20px;
+}
+
+.form-field {
+    margin-bottom: 40px;
+}
+
+.form-field.actions {
+    width: auto;
+}
+
+.form-field.actions button {
+    margin-right: 10px;
+}
+
+.form-field .price-for-today {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+.form-field .price-for-today strong {
+    color: #222;
+}

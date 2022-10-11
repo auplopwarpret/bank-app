@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABC Bank</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/transaction-page.css" />
+</head>
+<body>
+<div class="header">
+    <img src="images/abc-logo.png" />
+</div>
+<div class="page-content">
+    <h1>Purchase Crypto</h1>
+    <a href="home-page.html" class="back-link"> &#8592 Back</a>
+    <div class="success card hidden" id="purchase-success-alert"> Order Placed Successfully</div>
+    <div class="danger card hidden" id="purchase-validation-alert">Please enter correct amount</div>
+    <div class="card">
+        <form class="transaction-form" id="transaction-form">
+            <div class="form-field crypto-select">
+                <label>Choose Crypto</label>
+                <select name="crypto" id="crypto-select">
+                    <option value="btc">Bitcoin</option>
+                    <option value="eth">Etherium</option>
+                    <option value="dgc">Doge Coin</option>
+                </select>
+                <label class="price-for-today">Today's price: <strong id="crypto-price">$20</strong></label>
+            </div>
+
+            <div class="form-field">
+                <label> Enter the amount</label>
+                <input type="number" name="amount" id="amount"/>
+            </div>
+
+            <div class="form-field">
+                <label>Choose Account</label>
+                <select name="crypto">
+                    <option value="10001234">10001234 (SAVINGS)</option>
+                    <option value="10001235">10001234 (OVERDRAFT)</option>
+                </select>
+            </div>
+
+            <div class="form-field actions">
+                <button class="primary" id="place-order"> Place Order</button>
+                <button class="secondary" id="cancel-order" type="button"> Cancel </button>
+            </div>
+        </form>
+    </div>
+
+</div>
+<script src="javascripts/transaction-page.js"></script>
+</body>
+</html>

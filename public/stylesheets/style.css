@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background: #efefef;
+  min-height: 100vh;
+  font-family: Verdana, sans-serif;
+  color: #444;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+a,
+a:visited,
+a:active {
+  color: #444444;
+  text-decoration: none;
+}
+
+button.primary {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background: #0888ff;
+  color: #fff;
+}
+
+button.primary:hover {
+  background: #00007f;
+}
+
+button.secondary {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #444;
+}
+
+button.secondary:hover {
+  background: #eee;
+}
+
+
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.header {
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  text-align: center;
+  background: #fff;
+}
+
+.header img {
+  width: 100px;
+}
+
+.page-content {
+  padding-top: 20px;
+  max-width: 998px;
+  min-height: 100vw;
+  margin: auto;
+}
+
+.form-field {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-field input {
+  padding: 10px 15px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.form-field button {
+  width: 280px;
+  margin: auto;
+
+}
+
+.error {
+  color: red;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.login-form {
+  width: 300px;
+  margin: auto;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 3px 0px #ccc;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.card.success {
+  background: #cef8d0;
+  border-color: #1fd655;
+}
+.card.danger {
+  background: #ffdadb;
+  border-color: #b92e34;
+}
+
+.card h2{
+  margin-top: 0;
+}
+
+.hidden {
+  display: none;
+}
